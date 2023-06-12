@@ -12,3 +12,6 @@ python bin/vbcg.py -h for help message
 
 ### Windows
 Download the installer executable and install it to run the analysis in GUI mode.
+
+## Citation
+If you found our tool helpful, please cite our paper.
