@@ -11,7 +11,7 @@ HMMER
 python bin/vbcg.py -h for help message
 
 ### Windows
-Download the installer executable and install it to run the analysis in GUI mode.
+Download the <a href='https://hts.iit.edu/static/files/vbcg_v1.3_setup.exe'> <b> installer executable </b> </a> and install it to run the analysis in GUI mode.
 
 ## Citation
 If you found our tool helpful, please cite our paper.
