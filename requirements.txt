@@ -1,0 +1,4 @@
+Bio >= 1.5.3
+Pandas
+Prodigal
+HMMER
