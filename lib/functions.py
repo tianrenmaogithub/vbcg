@@ -80,6 +80,8 @@ def retrieve_vbcg(hmmscan_outdir, prodigal_outdir, vbcg_outdir):
     for i in df.columns:
         d = SeqIO.to_dict(SeqIO.parse('%s/%s' % (prodigal_outdir, i), 'fasta'))
         for j in df.index:
+            if df.isnull().loc[j,i]:
+                continue
             rec = d[df.loc[j,i]]
             rec.id = '%s_%s' % (i, rec.id)
             df2.loc[j,i] = rec
