@@ -87,7 +87,7 @@ def retrieve_vbcg(hmmscan_outdir, prodigal_outdir, vbcg_outdir):
             df2.loc[j,i] = rec
 
     for i in df2.index:
-        SeqIO.write(df2.loc[i,:], '%s/%s.faa' % (vbcg_outdir, i), 'fasta')
+        SeqIO.write([j for j in df2.loc[i,:] if type(j)!=float], '%s/%s.faa' % (vbcg_outdir, i), 'fasta')
 
     print('Retrieving VBCG genes done')
 
