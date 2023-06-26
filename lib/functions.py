@@ -60,8 +60,9 @@ def parse_hmm_out(hmm_out):
     '''
     hmm = open(hmm_out, 'r').readlines()
     hmm = [i[:100] for i in hmm]
-    hmm = '\n'.join(hmm)
+    hmm = '-\n'.join(hmm)
     df1 = pd.read_csv(StringIO(hmm), sep=' +', header=None, index_col=None, comment='#', engine='python')
+    df1.dropna(inplace=True)
     df2  = df1.loc[:,[1,2]]
     df2.drop_duplicates(1, inplace=True)
     dict1 = df2.set_index(1).to_dict()[2]
