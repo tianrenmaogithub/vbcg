@@ -14,4 +14,6 @@ python bin/vbcg.py -h for help message
 Download the <a href='https://hts.iit.edu/static/files/vbcg_v1.3_setup.exe'> <b> installer executable </b> </a> and install it to run the analysis in GUI mode.
 <img src='GUI.jpg' width=500px>
 ## Citation
-If you found our tool helpful, please cite our paper.
+If you found our tool helpful, please cite our paper.<br>
+VBCG: 20 validated bacterial core genes for phylogenomic analysis with high fidelity and resolution<br>
+https://www.biorxiv.org/content/10.1101/2023.06.13.544823v1
