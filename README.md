@@ -15,6 +15,10 @@ python bin/vbcg.py -h for help message
 ### Windows
 Download the <a href='https://hts.iit.edu/static/files/vbcg_v1.3_setup.exe'> <b> installer executable </b> </a> and install it to run the analysis in GUI mode. Click "More Info" and then "Run Anyway" to proceed with the installation.
 <img src='gui.jpg' width=500px>
+
+## Input data
+You need to prepare a directory with separate genome sequence FASTA files (either zipped in .gz or not). 
+
 ## Citation
 If you found our tool helpful, please cite our paper.<br>
 VBCG: 20 validated bacterial core genes for phylogenomic analysis with high fidelity and resolution<br>
