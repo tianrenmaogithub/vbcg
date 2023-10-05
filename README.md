@@ -9,6 +9,7 @@ Prodigal<br>
 HMMER<br>
 
 Download this package and run
+
 python bin/vbcg.py -h for help message
 
 ### Windows
