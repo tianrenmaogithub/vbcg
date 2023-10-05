@@ -8,7 +8,7 @@ Pandas<br>
 Prodigal<br>
 HMMER<br>
 
-Download this package and go to vbcg/bin and run "chmod +x fasttree gblocks muscle raxml". You only need to do this once.
+Download this package and go to vbcg/bin/ and run "chmod +x fasttree gblocks muscle raxml". You only need to do this once.
 
 Then run: "python path_to_vbcg/bin/vbcg.py -h" for help message.
 
