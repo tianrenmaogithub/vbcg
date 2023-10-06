@@ -20,6 +20,8 @@ Download the <a href='https://hts.iit.edu/static/files/vbcg_v1.3_setup.exe'> <b>
 ## Input data
 You need to prepare a directory with separate genome sequence FASTA files (either zipped in .gz or not). 
 
+You may download this <a href='https://hts.iit.edu/static/files/example_genome_input.zip'><b>example genome input data</b></a> as a reference and test the software.
+
 ## Citation
 If you found our tool helpful, please cite our paper.<br>
 VBCG: 20 validated bacterial core genes for phylogenomic analysis with high fidelity and resolution<br>
