@@ -20,7 +20,7 @@ Download the <a href='https://hts.iit.edu/static/files/vbcg_v1.3_setup.exe'> <b>
 ## Input data
 You need to prepare a directory with separate genome sequence FASTA files (either zipped in .gz or not). 
 
-You may download this <a href='https://hts.iit.edu/static/files/example_genome_input.zip'><b>example genome input data</b></a> as a reference and test the software.
+You may download this <a href='https://hts.iit.edu/static/files/example_input_genomes.zip'><b>example input genomes data</b></a> as a reference. Unzip it and feed the <b>directory</b> to the software as the input.
 
 ## Citation
 If you found our tool helpful, please cite our paper.<br>
