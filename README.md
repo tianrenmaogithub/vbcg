@@ -8,9 +8,9 @@ Pandas<br>
 Prodigal<br>
 HMMER<br>
 
-Download this package and go to vbcg/bin/ and run "chmod +x fasttree gblocks muscle raxml". You only need to do this once.
+Download this package and run this for the help message.
 
-Then run: "python path_to_vbcg/bin/vbcg.py -h" for help message.
+python path_to_vbcg/bin/vbcg.py -h
 
 ### Windows
 Download the <a href='https://hts.iit.edu/static/files/vbcg_v1.3_setup.exe'> <b> installer executable </b> </a> and install it to run the analysis in GUI mode. Click "More Info" and then "Run Anyway" to proceed with the installation.
