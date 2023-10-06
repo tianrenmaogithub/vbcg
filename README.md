@@ -14,6 +14,7 @@ Then run: "python path_to_vbcg/bin/vbcg.py -h" for help message.
 
 ### Windows
 Download the <a href='https://hts.iit.edu/static/files/vbcg_v1.3_setup.exe'> <b> installer executable </b> </a> and install it to run the analysis in GUI mode. Click "More Info" and then "Run Anyway" to proceed with the installation.
+
 <img src='gui.jpg' width=500px>
 
 ## Input data
