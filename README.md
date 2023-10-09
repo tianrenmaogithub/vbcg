@@ -18,15 +18,19 @@ Phylogenomics; Bacterial core genes; Phylogenetic tree; Pathogen typing
 - HMMER<br>
 #### Installing dependencies
 To install the dependencies, run:<br>
-- conda create -n vbcg python=3.9<br>
-- pip install biopython pandas<br>
-- conda install -c bioconda prodigal hmmer
-
+```bash
+conda create -n vbcg python=3.9
+pip install biopython pandas
+conda install -c bioconda prodigal hmmer
+```
 Then download this package<br>
-- git clone https://github.com/tianrenmaogithub/vbcg.git<br>
-and run this for the help message.<br>
-- python path_to_vbcg/bin/vbcg.py -h
-
+```bash
+git clone https://github.com/tianrenmaogithub/vbcg.git
+```
+and run this for the help message.
+```bash
+python path_to_vbcg/bin/vbcg.py -h
+```
 ### Windows
 Download the <a href='https://hts.iit.edu/static/files/vbcg_v1.3_setup.exe'> <b> installer executable </b> </a> and install it to run the analysis in GUI mode. Click "More Info" and then "Run Anyway" to proceed with the installation.
 
