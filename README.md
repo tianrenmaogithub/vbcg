@@ -1,4 +1,5 @@
 # VBCG: 20 validated bacterial core genes for phylogenomic analysis with high fidelity and resolution
+## Abstract
 ### Background
 Phylogenomic analysis has become an inseparable part of studies of bacterial diversity and evolution, and many different bacterial core genes have been collated and used for phylogenomic tree reconstruction. However, these genes have been selected based on their presence and single-copy ratio in all bacterial genomes, leaving out the gene's 'phylogenetic fidelity' unexamined. 
 ### Results
@@ -10,19 +11,21 @@ Phylogenomics; Bacterial core genes; Phylogenetic tree; Pathogen typing
 
 ## Installation
 ### Linux
-dependencies:<br>
+#### Dependencies
 - Bio >= 1.5.3<br>
 - Pandas<br>
 - Prodigal<br>
 - HMMER<br>
+#### Installing dependencies
 To install the dependencies, run:<br>
-conda create -n vbcg python=3.9<br>
-pip install biopython pandas<br>
-conda install -c bioconda prodigal hmmer<br>
+- conda create -n vbcg python=3.9<br>
+- pip install biopython pandas<br>
+- conda install -c bioconda prodigal hmmer
+
 Then download this package<br>
-git clone https://github.com/tianrenmaogithub/vbcg.git<br>
+- git clone https://github.com/tianrenmaogithub/vbcg.git<br>
 and run this for the help message.<br>
-python path_to_vbcg/bin/vbcg.py -h
+- python path_to_vbcg/bin/vbcg.py -h
 
 ### Windows
 Download the <a href='https://hts.iit.edu/static/files/vbcg_v1.3_setup.exe'> <b> installer executable </b> </a> and install it to run the analysis in GUI mode. Click "More Info" and then "Run Anyway" to proceed with the installation.
