@@ -11,13 +11,17 @@ Phylogenomics; Bacterial core genes; Phylogenetic tree; Pathogen typing
 ## Installation
 ### Linux
 dependencies:<br>
-Bio >= 1.5.3<br>
-Pandas<br>
-Prodigal<br>
-HMMER<br>
-
-Download this package and run this for the help message.
-
+- Bio >= 1.5.3<br>
+- Pandas<br>
+- Prodigal<br>
+- HMMER<br>
+To install the dependencies, run:<br>
+conda create -n vbcg python=3.9<br>
+pip install biopython pandas<br>
+conda install -c bioconda prodigal hmmer<br>
+Then download this package<br>
+git clone https://github.com/tianrenmaogithub/vbcg.git<br>
+and run this for the help message.<br>
 python path_to_vbcg/bin/vbcg.py -h
 
 ### Windows
