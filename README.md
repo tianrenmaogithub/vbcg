@@ -20,6 +20,7 @@ Phylogenomics; Bacterial core genes; Phylogenetic tree; Pathogen typing
 To install the dependencies, run:<br>
 ```bash
 conda create -n vbcg python=3.9
+conda activate vbcg
 pip install biopython pandas
 conda install -c bioconda prodigal hmmer
 ```
