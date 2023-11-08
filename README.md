@@ -46,5 +46,4 @@ You may download this <a href='https://hts.iit.edu/static/files/example_input_ge
 
 ## Citation
 If you found our tool helpful, please cite our paper.<br>
-VBCG: 20 validated bacterial core genes for phylogenomic analysis with high fidelity and resolution<br>
-https://www.biorxiv.org/content/10.1101/2023.06.13.544823v1
+Tian, R., Imanian, B. VBCG: 20 validated bacterial core genes for phylogenomic analysis with high fidelity and resolution. Microbiome 11, 247 (2023). https://doi.org/10.1186/s40168-023-01705-9
