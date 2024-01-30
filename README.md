@@ -42,7 +42,7 @@ Download the <a href='https://zenodo.org/records/10594391/files/vbcg_v1.3_setup.
 - Do NOT include any non-FASTA files or subfolders.
 - Do NOT include spaces in the folder or file names.
 
-You may download this <a href='https://zenodo.org/records/10594391/files/genomes.zip?download=1'><b>example input genomes data</b></a> as a reference. Unzip it and feed the <b>directory</b> to the software as the input.
+You may download this <a href='https://zenodo.org/records/10594429/files/test_genomes.zip?download=1'><b>example input genomes data</b></a> as a reference. Unzip it and feed the <b>directory</b> to the software as the input.
 
 ## Citation
 If you found our tool helpful, please cite our paper.<br>
