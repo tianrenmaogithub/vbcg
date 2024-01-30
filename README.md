@@ -33,7 +33,7 @@ and run this for the help message.
 python path_to_vbcg/bin/vbcg.py -h
 ```
 ### Windows
-Download the <a href='https://hts.iit.edu/static/files/vbcg_v1.3_setup.exe'> <b> installer executable </b> </a> and install it to run the analysis in GUI mode. Click "More Info" and then "Run Anyway" to proceed with the installation.
+Download the <a href='https://zenodo.org/records/10594391/files/vbcg_v1.3_setup.exe?download=1'> <b> installer executable </b> </a> and install it to run the analysis in GUI mode. Click "More Info" and then "Run Anyway" to proceed with the installation.
 
 <img src='gui.jpg' width=500px>
 
@@ -42,7 +42,7 @@ Download the <a href='https://hts.iit.edu/static/files/vbcg_v1.3_setup.exe'> <b>
 - Do NOT include any non-FASTA files or subfolders.
 - Do NOT include spaces in the folder or file names.
 
-You may download this <a href='https://hts.iit.edu/static/files/example_input_genomes.zip'><b>example input genomes data</b></a> as a reference. Unzip it and feed the <b>directory</b> to the software as the input.
+You may download this <a href='https://zenodo.org/records/10594391/files/genomes.zip?download=1'><b>example input genomes data</b></a> as a reference. Unzip it and feed the <b>directory</b> to the software as the input.
 
 ## Citation
 If you found our tool helpful, please cite our paper.<br>
