@@ -27,6 +27,7 @@ conda install -c bioconda prodigal hmmer
 Then download this package<br>
 ```bash
 git clone https://github.com/tianrenmaogithub/vbcg.git
+chmod 755 vbcg/bin/*
 ```
 and run this for the help message.
 ```bash
