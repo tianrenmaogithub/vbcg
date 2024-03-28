@@ -46,5 +46,5 @@ Download the <a href='https://zenodo.org/records/10594391/files/vbcg_v1.3_setup.
 You may download this <a href='https://zenodo.org/records/10594429/files/test_genomes.zip?download=1'><b>example input genomes data</b></a> as a reference. Unzip it and feed the <b>directory</b> to the software as the input.
 
 ## Citation
-If you found our tool helpful, please cite our paper.<br>
+If you find our tool helpful, please cite our paper.<br>
 Tian, R., Imanian, B. VBCG: 20 validated bacterial core genes for phylogenomic analysis with high fidelity and resolution. Microbiome 11, 247 (2023). https://doi.org/10.1186/s40168-023-01705-9
