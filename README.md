@@ -1,3 +1,4 @@
+Update: We have built a Galaxy server at http://hts.iit.edu/galaxy. You may go to http://hts.iit.edu/galaxy/?tool_id=vbcg to use it by simply uploading data and setting parameters.
 # VBCG: 20 validated bacterial core genes for phylogenomic analysis with high fidelity and resolution
 ## Abstract
 ### Background
