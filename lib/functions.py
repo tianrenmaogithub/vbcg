@@ -84,6 +84,7 @@ def retrieve_vbcg(hmmscan_outdir, prodigal_outdir, vbcg_outdir):
 
     faa = [os.path.basename(i) for i in glob('%s/*.faa' % prodigal_outdir)]
     d = {i: parse_hmm_out('%s/%s.tbl' % (hmmscan_outdir, i)) for i in faa}
+    d = {k: v for k, v in d.items() if v}
     df = pd.DataFrame.from_dict(d)
     
     df2 = df.copy()
