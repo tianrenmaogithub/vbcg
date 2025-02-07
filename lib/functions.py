@@ -9,6 +9,7 @@ from Bio.Seq import Seq
 from Bio import SeqIO
 import pandas as pd
 import re
+import json
 home = os.path.dirname(os.path.realpath(__file__))
 
 def call(cmd='',out='',err='',ex=True):
@@ -192,6 +193,8 @@ def make_tree(dir1, tree_maker, cpu, dir2, missing_genes=4):
         print('Error: Unknown tree maker')
         sys.exit(1)
 
+    with open('taxon_ID.json', 'w') as f:
+        json.dump(d2, f) 
     nwk = open(con.replace('.fas', '.nwk'), 'r').read()
     nwk = re.sub(r'taxon\d+', lambda x: d2[x.group(0)], nwk)
     open('../concatenated_ML_tree.nwk', 'w').write(nwk)
