@@ -25,7 +25,7 @@ def call(cmd='',out='',err='',ex=True):
 # prodigal gene prediction
 def prodigal(infile, outdir):
     print('Prodigal for %s' % os.path.basename(infile))
-    call('prodigal -a %s/%s.faa -o %s/prodigal.out -i %s -p meta -q' % (outdir, os.path.basename(infile), outdir, infile), 'Prodigal prediction for %s completed.' % infile, 'Prodigal prediction for %s failed.' % infile)
+    call('prodigal -c -a %s/%s.faa -o %s/prodigal.out -i %s -p meta -q' % (outdir, os.path.basename(infile), outdir, infile), 'Prodigal prediction for %s completed.' % infile, 'Prodigal prediction for %s failed.' % infile)
 
 def run_prodigal(indir, outdir, nproc=10):
     print('--------------- Running Prodigal gene prediction for %s -----------------' % indir)
